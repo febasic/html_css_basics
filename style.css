@@ -1,0 +1,87 @@
+html {
+  --rg-blue: #0142bb;
+}
+.shower {
+  --slide-ratio: calc(16 / 9);
+}
+.slide:before {
+  content: '';
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 126px;
+  height: 39px;
+  background-image: url('https://d3smn0u2zr7yfv.cloudfront.net/assets/assets/rg_black_logo_horizontal-4b19c7720fef304e7e96e74aeac196645baad5cafb5f3e22d0da467063f4e0a8.png');
+  background-size: cover;
+  opacity: 0.1;
+}
+.slide:after {
+  background-image: url('images/ribbon.svg');
+}
+.fz12 {
+  font-size: 18px;
+}
+.slide--heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 0;
+  text-align: center;
+  justify-content: center;
+}
+.slide--heading:after {
+  /* visibility: hidden; */
+}
+.slide--title {
+  background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.3)), 
+            #245cc5 url('images/objects_2x.png');
+  background-size: cover;
+  background-position: center right;
+}
+.slide--title:after {
+  visibility: hidden;
+}
+.slide--cern { 
+  background: linear-gradient(rgba(0, 0,0, 0.4), rgba(0, 0,0, 0.6)),
+                 url('https://www.universetoday.com/wp-content/uploads/2018/12/nwOtx-2000x1200.jpg');
+  /* background: linear-gradient(rgba(0, 0,0, 0.4), rgba(0, 0,0, 0.3)), */
+              /* url('images/cern.jpg'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 1300px;
+  background-position: center;
+}
+.color-white {
+  color: white !important;
+}
+.slide--iframe {
+  padding: 0;
+}
+.slide--iframe iframe {
+  height: 100%;
+}
+.slide--iframe:after {
+  visibility: hidden;
+}
+.slide--css {
+  background: linear-gradient(rgba(0, 0,0, 0.4), rgba(0, 0,0, 0.3)),
+              url('https://www-rewind-sk.exactdn.com/wp-content/uploads/2018/04/ihajfhsfjh-1068x601.png?strip=all&lossy=1&ssl=1');
+  background-size: cover;
+  background-position: center;
+}
+.main-nav {
+  display: flex;
+}
+.main-nav__item {
+  display: inline-block;
+  margin-right: 5px;
+  padding: 20px 30px;
+  background-color: rgba(1, 66, 187, 0.6);
+  background-image: none !important;
+  color: white !important;
+  text-transform: capitalize;
+  transition: background-color 0.2s;
+}
+.main-nav__item--active {
+  background-color: rgb(1, 66, 187);
+}
