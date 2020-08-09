@@ -29,9 +29,6 @@ html {
   text-align: center;
   justify-content: center;
 }
-.slide--heading:after {
-  /* visibility: hidden; */
-}
 .slide--title {
   background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.3)), 
             #245cc5 url('images/objects_2x.png');
@@ -44,8 +41,6 @@ html {
 .slide--cern { 
   background: linear-gradient(rgba(0, 0,0, 0.4), rgba(0, 0,0, 0.6)),
                  url('https://www.universetoday.com/wp-content/uploads/2018/12/nwOtx-2000x1200.jpg');
-  /* background: linear-gradient(rgba(0, 0,0, 0.4), rgba(0, 0,0, 0.3)), */
-              /* url('images/cern.jpg'); */
   background-repeat: no-repeat;
   background-size: cover;
   background-size: 1300px;
